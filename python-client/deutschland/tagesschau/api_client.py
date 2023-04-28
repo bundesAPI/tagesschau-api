@@ -147,7 +147,6 @@ class ApiClient(object):
             typing.List[typing.Dict[str, typing.Any]]
         ] = None,
     ):
-
         config = self.configuration
 
         # header parameters
@@ -903,17 +902,16 @@ class Endpoint(object):
         """This method is invoked when endpoints are called
         Example:
 
-        api_instance = Api2Api()
-        api_instance.api2  # this is an instance of the class Endpoint
-        api_instance.api2()  # this invokes api_instance.api2.__call__()
+        api_instance = ChannelsApi()
+        api_instance.channels  # this is an instance of the class Endpoint
+        api_instance.channels()  # this invokes api_instance.channels.__call__()
         which then invokes the callable functions stored in that endpoint at
-        api_instance.api2.callable or self.callable in this class
+        api_instance.channels.callable or self.callable in this class
 
         """
         return self.callable(self, *args, **kwargs)
 
     def call_with_http_info(self, **kwargs):
-
         try:
             index = (
                 self.api_client.configuration.server_operation_index.get(

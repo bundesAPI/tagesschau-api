@@ -50,8 +50,8 @@ Please follow the [installation procedure](#installation--usage) and then run th
 import time
 from deutschland import tagesschau
 from pprint import pprint
-from deutschland.tagesschau.api import api2_api
-from deutschland.tagesschau.model.homepage_response import HomepageResponse
+from deutschland.tagesschau.api import channels_api
+from deutschland.tagesschau.model.channels_response import ChannelsResponse
 # Defining the host is optional and defaults to https://www.tagesschau.de
 # See configuration.py for a list of all supported configuration parameters.
 configuration = tagesschau.Configuration(
@@ -63,14 +63,14 @@ configuration = tagesschau.Configuration(
 # Enter a context with an instance of the API client
 with tagesschau.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = api2_api.Api2Api(api_client)
+    api_instance = channels_api.ChannelsApi(api_client)
 
     try:
-        # Wichtige Nachrichten und Eilmeldungen
-        api_response = api_instance.api2()
+        # Aktuelle Kanäle
+        api_response = api_instance.channels()
         pprint(api_response)
     except tagesschau.ApiException as e:
-        print("Exception when calling Api2Api->api2: %s\n" % e)
+        print("Exception when calling ChannelsApi->channels: %s\n" % e)
 ```
 
 ## Documentation for API Endpoints
@@ -79,14 +79,9 @@ All URIs are relative to *https://www.tagesschau.de*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*Api2Api* | [**api2**](docs/Api2Api.md#api2) | **GET** /api2/ | Wichtige Nachrichten und Eilmeldungen
 *ChannelsApi* | [**channels**](docs/ChannelsApi.md#channels) | **GET** /api2/channels/ | Aktuelle Kanäle
 *HomepageApi* | [**homepage**](docs/HomepageApi.md#homepage) | **GET** /api2/homepage/ | Ausgewählte aktuelle Nachrichten und Eilmeldungen
-*MultimediaApi* | [**multimedia**](docs/MultimediaApi.md#multimedia) | **GET** /api2/multimedia/ | Multimedia
 *NewsApi* | [**news**](docs/NewsApi.md#news) | **GET** /api2/news/ | Aktuelle Nachrichten und Eilmeldungen
-*NewsfeedApi* | [**newsfeed**](docs/NewsfeedApi.md#newsfeed) | **GET** /api2/newsfeed-101~_date-{datumsangabe}.json | Newsfeed
-*RessortApi* | [**ressort**](docs/RessortApi.md#ressort) | **GET** /api2/{ressort}/ | Ressort-spezifische Nachrichten
-*SearchApi* | [**search**](docs/SearchApi.md#search) | **GET** /api2/search/ | Suche
 
 
 ## Documentation For Models
