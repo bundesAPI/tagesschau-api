@@ -61,6 +61,26 @@ Department/subject area
 Current channels (im Livestream: tagesschau24, tagesschau in 100 Sekunden, tagesschau, tagesschau 20 Uhr, tagesthemen, nachtmagazin, Bericht aus Berlin, tagesschau vor 20 Jahren, tagesschau mit Gebärdensprache)
 
 
+## Search
+
+**URL:** https://www.tagesschau.de/api2/search/
+
+
+**Parameter:** *searchText* 
+
+search text
+
+
+**Parameter:** *resultPage* 
+
+page
+
+
+**Parameter:** *pageSize* 
+
+Search results per page (1-30)
+
+
 ## Example
 
 ```bash

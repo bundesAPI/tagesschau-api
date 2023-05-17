@@ -98,6 +98,42 @@ paths:
                 schema:
                   $ref: '#/components/schemas/ChannelsResponse'
 
+  /api2/search:
+    get:
+      summary: "Search"
+      description: "Search"
+      operationId: "search"
+      responses:
+        '200':
+            description: OK
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/SearchResponse'
+      parameters:
+ 
+        - in: query
+          name: searchText
+          schema:
+            type: string
+          description: search text
+          example: Ukraine
+          required: false
+        - in: query
+          name: pageSize
+          schema:
+            type: integer
+          description: page
+          example: 0
+          required: false
+        - in: query
+          name: resultPage
+          schema:
+            type: integer
+          description: Search results per page (1-30)
+          example: 2
+          required: false
+
 components: 
   schemas:    
 

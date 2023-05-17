@@ -63,6 +63,26 @@ Ressort/Themengebiet
 Aktuelle Kanäle (im Livestream: tagesschau24, tagesschau in 100 Sekunden, tagesschau, tagesschau 20 Uhr, tagesthemen, nachtmagazin, Bericht aus Berlin, tagesschau vor 20 Jahren, tagesschau mit Gebärdensprache)
 
 
+## Search
+
+**URL:** https://www.tagesschau.de/api2/search/
+
+
+**Parameter:** *searchText* 
+
+Suchtext
+
+
+**Parameter:** *resultPage* 
+
+Seite
+
+
+**Parameter:** *pageSize* 
+
+Suchergebnisse pro Seite (1-30)
+
+
 ## Beispiel
 
 ```bash
