@@ -82,6 +82,7 @@ Class | Method | HTTP request | Description
 *ChannelsApi* | [**channels**](docs/ChannelsApi.md#channels) | **GET** /api2/channels/ | Aktuelle Kanäle
 *HomepageApi* | [**homepage**](docs/HomepageApi.md#homepage) | **GET** /api2/homepage/ | Ausgewählte aktuelle Nachrichten und Eilmeldungen
 *NewsApi* | [**news**](docs/NewsApi.md#news) | **GET** /api2/news/ | Aktuelle Nachrichten und Eilmeldungen
+*SearchApi* | [**search**](docs/SearchApi.md#search) | **GET** /api2/search/ | Suche
 
 
 ## Documentation For Models

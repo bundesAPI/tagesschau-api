@@ -28,6 +28,14 @@ tagesschau.api.news\_api module
    :undoc-members:
    :show-inheritance:
 
+tagesschau.api.search\_api module
+---------------------------------
+
+.. automodule:: tagesschau.api.search_api
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 

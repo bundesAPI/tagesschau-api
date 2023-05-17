@@ -16,3 +16,4 @@
 from deutschland.tagesschau.api.channels_api import ChannelsApi
 from deutschland.tagesschau.api.homepage_api import HomepageApi
 from deutschland.tagesschau.api.news_api import NewsApi
+from deutschland.tagesschau.api.search_api import SearchApi

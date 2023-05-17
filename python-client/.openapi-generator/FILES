@@ -15,6 +15,7 @@ docs/MultimediaResponse.md
 docs/NewsApi.md
 docs/NewsResponse.md
 docs/NewsResponseNewsInner.md
+docs/SearchApi.md
 docs/SearchResponse.md
 docs/SearchResponseSearchResultsInner.md
 git_push.sh
@@ -29,6 +30,7 @@ tagesschau/api/__init__.py
 tagesschau/api/channels_api.py
 tagesschau/api/homepage_api.py
 tagesschau/api/news_api.py
+tagesschau/api/search_api.py
 tagesschau/api_client.py
 tagesschau/apis/__init__.py
 tagesschau/configuration.py
@@ -60,6 +62,7 @@ test/test_multimedia_response.py
 test/test_news_api.py
 test/test_news_response.py
 test/test_news_response_news_inner.py
+test/test_search_api.py
 test/test_search_response.py
 test/test_search_response_search_results_inner.py
 tox.ini
