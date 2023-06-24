@@ -85,6 +85,14 @@ paths:
           description: Department/subject area
           required: false
 
+        - in: query
+          name: date
+          schema:
+            type: string
+          example: 221231
+          description: Date of publication
+          required: false
+
   /api2/channels:
     get:
       summary: "Current channels"
