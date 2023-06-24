@@ -43,7 +43,7 @@ Current news that can be filtered via GET parameters:
 State: 1=Baden-Württemberg, 2=Bavaria, 3=Berlin, 4=Brandenburg, 5=Bremen, 6=Hamburg, 7=Hesse, 8=Mecklenburg-Western Pomerania, 9=Lower Saxony, 10=North Rhine-Westphalia, 11= Rhineland-Palatinate, 12=Saarland, 13=Saxony, 14=Saxony-Anhalt, 15=Schleswig-Holstein, 16=Thuringia. Multiple comma-separated specifications possible (e.g. regions=1,2).
 
 
-**Parameters:** *ressort*
+**Parameter:** *ressort*
 
 - inland
 - ausland
@@ -52,6 +52,11 @@ State: 1=Baden-Württemberg, 2=Bavaria, 3=Berlin, 4=Brandenburg, 5=Bremen, 6=Ham
 - video
 
 Department/subject area
+
+
+**Parameter**: *date*
+
+Date of publication. Example: `221231` (=2022-12-31)
 
 
 ## Channels
