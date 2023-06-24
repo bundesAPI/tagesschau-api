@@ -88,6 +88,13 @@ paths:
           example: ausland
           description: Ressort/Themengebiet
           required: false
+        - in: query
+          name: date
+          schema:
+            type: string
+          example: 221231
+          description: Datum der Veröffentlichung
+          required: false
 
   /api2/channels/:
     get:
