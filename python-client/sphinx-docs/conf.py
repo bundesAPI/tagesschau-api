@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath("../"))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "tagesschau-api"
-copyright = "2023, AndreasFischer1985"
+copyright = "2024, AndreasFischer1985"
 author = "AndreasFischer1985"
 
 version = "0.1.0"

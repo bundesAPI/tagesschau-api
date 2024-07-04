@@ -4,7 +4,7 @@ All URIs are relative to *https://www.tagesschau.de*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**search**](SearchApi.md#search) | **GET** /api2/search/ | Suche
+[**search**](SearchApi.md#search) | **GET** /api2u/search/ | Suche
 
 
 # **search**
