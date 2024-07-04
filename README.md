@@ -11,14 +11,14 @@ Die Tagesschau ist eine Nachrichtensendung der ARD (Abkürzung für Arbeitsgemei
 
 ## Homepage
 
-**URL:** https://www.tagesschau.de/api2/homepage/
+**URL:** https://www.tagesschau.de/api2u/homepage/
 
 Ausgewählte Nachrichten und Eilmeldungen, die auf der Startseite der Tagesschau-App zu sehen sind.
 
 
 ## News
 
-**URL:** https://www.tagesschau.de/api2/news/
+**URL:** https://www.tagesschau.de/api2u/news/
 
 Aktuelle Nachrichten, die über GET-Parameter gefiltert werden können:
 
@@ -51,21 +51,21 @@ Bundesland: 1=Baden-Württemberg, 2=Bayern, 3=Berlin, 4=Brandenburg, 5=Bremen, 6
 - sport	
 - video
 - investigativ
-- faktenfinder
+- wissen
 
 Ressort/Themengebiet
 
 
 ## Channels
 
-**URL:** https://www.tagesschau.de/api2/channels/
+**URL:** https://www.tagesschau.de/api2u/channels/
 
 Aktuelle Kanäle (im Livestream: tagesschau24, tagesschau in 100 Sekunden, tagesschau, tagesschau 20 Uhr, tagesthemen, nachtmagazin, Bericht aus Berlin, tagesschau vor 20 Jahren, tagesschau mit Gebärdensprache)
 
 
 ## Search
 
-**URL:** https://www.tagesschau.de/api2/search/
+**URL:** https://www.tagesschau.de/api2u/search/
 
 
 **Parameter:** *searchText* 

@@ -5,7 +5,7 @@ info:
 Current news and media articles are available in JSON format on [www.tagesschau.de](https://www.tagesschau.de) via the API documented here.
 <br><br>
 **Attention:** The use of the content for private, non-commercial use is permitted, but publication is not - with the exception of content that is explicitly under the CC license (https://tagesschau.de/creativecommons). It is not permitted to make more than 60 requests per hour."
-  version: "2.0.0"
+  version: "2.0.1"
   title: "Tagesschau API"
   contact:
     name:  "AndreasFischer1985"
@@ -17,7 +17,7 @@ servers:
 
 paths:
 
-  /api2/homepage:
+  /api2u/homepage:
     get:
       summary: "Selected news and breaking news"
       description: "Selected news and breaking news that are shown on the homepage of the Tagesschau app."
@@ -31,7 +31,7 @@ paths:
                   $ref: '#/components/schemas/HomepageResponse'
 
 
-  /api2/news:
+  /api2u/news:
     get:
       summary: "Current news and breaking news"
       description: "Current news and breaking news"
@@ -80,12 +80,12 @@ paths:
                 - sport
                 - video
                 - investigativ
-                - faktenfinder
+                - wissen
           example: ausland
           description: Department/subject area
           required: false
 
-  /api2/channels:
+  /api2u/channels:
     get:
       summary: "Current channels"
       description: "Current channels (im Livestream: tagesschau24, tagesschau in 100 Sekunden, tagesschau, tagesschau 20 Uhr, tagesthemen, nachtmagazin, Bericht aus Berlin, tagesschau vor 20 Jahren, tagesschau mit Gebärdensprache)"
@@ -98,7 +98,7 @@ paths:
                 schema:
                   $ref: '#/components/schemas/ChannelsResponse'
 
-  /api2/search:
+  /api2u/search:
     get:
       summary: "Search"
       description: "Search"
