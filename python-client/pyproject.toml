@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "de-tagesschau"
-version = "0.1.0"
+version = "0.2.0"
 description = "Tagesschau API"
 keywords = ["OpenAPI", "OpenAPI-Generator", "tagesschau", "App", "API"]
 homepage = "https://github.com/bundesAPI/tagesschau-api"
