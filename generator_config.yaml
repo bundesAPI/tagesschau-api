@@ -3,7 +3,7 @@ additionalProperties:
   packageName: "tagesschau"
   infoName: "BundesAPI"
   infoEmail: "kontakt@bund.dev"
-  packageVersion: 0.1.0
+  packageVersion: 0.2.0
   packageUrl: "https://github.com/bundesAPI/tagesschau-api"
   namespace: "deutschland"
   docLanguage: "de"
